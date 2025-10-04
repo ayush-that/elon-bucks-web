@@ -1,0 +1,28 @@
+# Ignore artifacts:
+build
+coverage
+.output
+.wxt
+node_modules
+dist
+
+# Ignore generated files
+*.log
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Ignore editor files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Ignore extension specific files
+web-ext.config.ts
+stats.html
+stats-*.json
+
+# Ignore public assets that don't need formatting
+public/icon/
+assets/
